@@ -1,5 +1,6 @@
 import React from 'react';
-
+import home from '../../assets/home.png'
+import ListaCategorias from '../../components/categorias/listarCategorias/listarCategorias';
 
 
 
@@ -18,18 +19,18 @@ function Home() {
                                 <button className='rounded bg-white text-blue-800 py-2 px-4'>Ver Categorias</button>
                             </a>
 
-
+                            
 
                         </div>
                     </div>
 
                     <div className="flex justify-center ">
-
+                    <img src={home} alt="" className='w-3/3' />
 
                     </div>
                 </div>
             </div>
-
+            <ListaCategorias />
         </>
     );
 }
