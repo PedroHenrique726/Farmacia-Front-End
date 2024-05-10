@@ -17,8 +17,9 @@ function Navbar() {
 
     <div className='flex gap-6'>
       <Link to='/home' className='bg-orange-200 hover:bg-orange-400 text-gray-800 font-bold py-2 px-4 rounded-l'>Home</Link>
-      <Link to='/Produtos' className='bg-orange-200 hover:bg-orange-400 text-gray-800 font-bold py-2 px-4 rounded-l'>Produtos</Link>
-      <Link to='/Sobre' className='bg-orange-200 hover:bg-orange-400 text-gray-800 font-bold py-2 px-4 rounded-l'>Sobre</Link>
+      <Link to='/categorias' className='bg-orange-200 hover:bg-orange-400 text-gray-800 font-bold py-2 px-4 rounded-l'>Categorias</Link>
+      <Link to='/cadastrarCategorias'  className='bg-orange-200 hover:bg-orange-400 text-gray-800 font-bold py-2 px-4 rounded-l'>Cadastrar</Link>
+      <Link to='/sobre' className='bg-orange-200 hover:bg-orange-400 text-gray-800 font-bold py-2 px-4 rounded-l'>Sobre</Link>
     </div>
   </div>
 </div>
